@@ -40,6 +40,8 @@ class Server:
             return []
         else:
             return self.__dataset[i[0]:i[1]]
+
+
 def index_range(page: int, page_size: int) -> tuple:
     '''
     Parameters:
