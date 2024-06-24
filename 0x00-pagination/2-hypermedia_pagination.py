@@ -7,7 +7,7 @@ Page numbers are 1-indexed, i.e. the first page is page 1.
 '''
 import csv
 import math
-from typing import List
+from typing import List, Dict
 
 
 class Server:
