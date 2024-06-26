@@ -2,8 +2,7 @@
 '''
 this class willm use the base class and the lifo technique.
 '''
-
-from base_caching import BaseCaching
+BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LIFOCache(BaseCaching):
